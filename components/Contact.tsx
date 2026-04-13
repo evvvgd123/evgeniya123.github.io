@@ -14,23 +14,23 @@ export default function Contact() {
             <h3 className="text-sm font-semibold text-zinc-900">Прямые ссылки</h3>
             <ul className="mt-4 space-y-3 text-sm">
               <li>
-                <a className="flex items-center gap-2 text-zinc-800 hover:text-zinc-950" href="mailto:you@example.com">
+                <a className="flex items-center gap-2 text-zinc-800 hover:text-zinc-950" href="mailto:dubnova2005@mail.ru">
                   <span role="img" aria-label="Почта">📧</span> dubnova2005@mail.ru
                 </a>
               </li>
               <li>
-                <a className="flex items-center gap-2 text-zinc-800 hover:text-zinc-950" href="https://t.me/USERNAME" target="_blank" rel="noreferrer">
+                <a className="flex items-center gap-2 text-zinc-800 hover:text-zinc-950" href="https://t.me/evvvgd" target="_blank" rel="noreferrer">
                   <span role="img" aria-label="Telegram">✈️</span> evvvgd
                 </a>
               </li>
               <li>
-                <a className="flex items-center gap-2 text-zinc-800 hover:text-zinc-950" href="https://vk.com/USERNAME" target="_blank" rel="noreferrer">
+                <a className="flex items-center gap-2 text-zinc-800 hover:text-zinc-950" href="https://vk.com/evvvgd" target="_blank" rel="noreferrer">
                   <span role="img" aria-label="VK">❤️</span> https://vk.com/evvvgd
                 </a>
               </li>
               <li>
-                <a className="flex items-center gap-2 text-zinc-800 hover:text-zinc-950" href="https://github.com/USERNAME" target="_blank" rel="noreferrer">
-                  <span role="img" aria-label="GitHub">🐙</span> GitHub
+                <a className="flex items-center gap-2 text-zinc-800 hover:text-zinc-950" href="https://github.com/evvvgd123" target="_blank" rel="noreferrer">
+                  <span role="img" aria-label="GitHub">🐙</span> evgeniya123.github.io
                 </a>
               </li>
             </ul>
