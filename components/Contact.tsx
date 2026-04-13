@@ -12,32 +12,50 @@ export default function Contact() {
         <div className="mt-8 grid gap-6 md:grid-cols-2">
           <div className="rounded-2xl border border-zinc-200 p-6">
             <h3 className="text-sm font-semibold text-zinc-900">Прямые ссылки</h3>
+            
             <ul className="mt-4 space-y-3 text-sm">
               <li>
-                <a className="flex items-center gap-2 text-zinc-800 hover:text-zinc-950" href="mailto:dubnova2005@mail.ru">
+                <a
+                  className="flex items-center gap-2 text-zinc-800 hover:text-zinc-950"
+                  href="mailto:dubnova2005@mail.ru"
+                >
                   <span role="img" aria-label="Почта">📧</span> dubnova2005@mail.ru
                 </a>
               </li>
+
               <li>
-                <a className="flex items-center gap-2 text-zinc-800 hover:text-zinc-950" href="https://t.me/evvvgd" target="_blank" rel="noreferrer">
-                  <span role="img" aria-label="Telegram">✈️</span> evvvgd
+                <a
+                  className="flex items-center gap-2 text-zinc-800 hover:text-zinc-950"
+                  href="https://t.me/evvvgd"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span role="img" aria-label="Telegram">✈️</span> Telegram: @evvvgd
                 </a>
               </li>
+
               <li>
-                <a className="flex items-center gap-2 text-zinc-800 hover:text-zinc-950" href="https://vk.com/evvvgd" target="_blank" rel="noreferrer">
-                  <span role="img" aria-label="VK">❤️</span> https://vk.com/evvvgd
+                <a
+                  className="flex items-center gap-2 text-zinc-800 hover:text-zinc-950"
+                  href="https://vk.com/evvvgd"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span role="img" aria-label="VK">💬</span> VK: vk.com/evvvgd
                 </a>
               </li>
+
               <li>
-                <a className="flex items-center gap-2 text-zinc-800 hover:text-zinc-950" href="https://github.com/evvvgd123" target="_blank" rel="noreferrer">
-                  <span role="img" aria-label="GitHub">🐙</span> evgeniya123.github.io
+                <a
+                  className="flex items-center gap-2 text-zinc-800 hover:text-zinc-950"
+                  href="https://github.com/evvvgd123"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span role="img" aria-label="GitHub">🐙</span> GitHub: evvvgd123
                 </a>
               </li>
             </ul>
-
-            <p className="mt-6 text-xs text-zinc-500">
-              
-            </p>
           </div>
 
           <div className="rounded-2xl border border-zinc-200 p-6">
@@ -54,7 +72,7 @@ export default function Contact() {
                   name="name"
                   required
                   className="mt-1 w-full rounded-xl border border-zinc-300 px-3 py-2 text-sm"
-                  placeholder="Ваше имя"
+                  placeholder="Как к вам обращаться"
                 />
               </label>
 
@@ -86,10 +104,6 @@ export default function Contact() {
               >
                 Отправить
               </button>
-
-              <p className="text-xs text-zinc-500">
-                Форма работает через Formspree после публикации сайта.
-              </p>
             </form>
           </div>
         </div>
